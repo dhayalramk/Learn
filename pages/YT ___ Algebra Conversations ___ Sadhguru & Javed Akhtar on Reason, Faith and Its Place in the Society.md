@@ -1,2 +1,4 @@
 - Link: {{video https://www.youtube.com/watch?v=aNjZFY4qO2Y}}
 - I like the roasting part of this specifically
+- Faith and Stupidity have same definition
+	-
