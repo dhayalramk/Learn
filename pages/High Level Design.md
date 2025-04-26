@@ -1,0 +1,8 @@
+- Introduction
+	- High Level Design (HLD) is the overall system design, describing the system's architectural components and their relationships. It gives an overview of the system's functionality and helps in understanding the system from a broad perspective. This design allows project stakeholders to understand the system without needing to dive into the intricate technical details, making it critically important in communicating with non-technical audiences. It's also valuable in identifying potential problems early in the system's life cycle, saving time, resources, and reducing possible complications in later stages.
+-
+-
+- Useful links
+	- https://github.com/donnemartin/system-design-primer
+-
+	-

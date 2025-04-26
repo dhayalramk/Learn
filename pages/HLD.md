@@ -1,7 +1,0 @@
-- Introduction to High Level Design covers the overall system architecture and design, including system components, interactions, and the technologies and resources to be used. This process provides an abstract view of the system, simplifying the complexities and focusing on the bigger picture rather than the details. It is essential for conveying the overall design strategy to stakeholders and providing a guide for comprehending the system structure for the developers.
--
--
-- Useful links
-	- https://github.com/donnemartin/system-design-primer
--
-	-
