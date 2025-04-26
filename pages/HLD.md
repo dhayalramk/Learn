@@ -1,4 +1,4 @@
-- Introduction
+- Introduction to High Level Design
 -
 -
 - Useful links
