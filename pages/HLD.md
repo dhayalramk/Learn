@@ -1,4 +1,4 @@
-- Step 1: Outline use cases, constraints, and assumption
+- Introduction
 -
 -
 - Useful links
