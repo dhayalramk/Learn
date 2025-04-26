@@ -1,0 +1,7 @@
+- Step 1: Outline use cases, constraints, and assumption
+-
+-
+- Useful links
+	- https://github.com/donnemartin/system-design-primer
+-
+	-
