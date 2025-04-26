@@ -2,4 +2,4 @@
 - [[HLD / API]] Application Programming Interface. 
   Application - Any software that has a specific functionality or the purpose
   Interface - To the contract or protocol that dictates, how 2 application talks to each other.
--
+- Call -> Request -> Response
