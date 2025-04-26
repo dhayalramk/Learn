@@ -1,5 +1,6 @@
 - Introduction
 	- High Level Design (HLD) is the overall system design, describing the system's architectural components and their relationships. It gives an overview of the system's functionality and helps in understanding the system from a broad perspective. This design allows project stakeholders to understand the system without needing to dive into the intricate technical details, making it critically important in communicating with non-technical audiences. It's also valuable in identifying potential problems early in the system's life cycle, saving time, resources, and reducing possible complications in later stages.
+- High level design encompasses the structure and components of a system or project at a conceptual level before diving into specific details. Real life examples of high level design include architectural blueprints for buildings, flowcharts for software applications, and wireframes for websites. These visual representations outline the overall functionality and interactions of the system, serving as a roadmap for the more detailed design and implementation phases.
 -
 -
 - Useful links
