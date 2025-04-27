@@ -121,7 +121,7 @@
 :nonce 1745762380685
 :italic false}}
 :block/updated-at 1745762415448} 
-{:block/created-at 1745762428195
+{:block/created-at 1745762434592
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -141,30 +141,31 @@
 :id "f8549480-236f-11f0-b540-b99e3442f89a"
 :fontWeight 400
 :noFill false
-:point [780 184]
+:point [912 184]
 :fontSize 20
 :parentId "680e3806-89f0-407a-8099-4dc2593a83fc"
-:nonce 1745762426321
+:nonce 1745762426367
 :italic false}}
-:block/updated-at 1745762428195} 
-{:block/created-at 1745762426380
+:block/updated-at 1745762434592} 
+{:block/created-at 1745762445456
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
 :index 5
 :scale [1 1]
+:scaleLevel "sm"
 :fill ""
 :type "line"
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label ""
+:label "HTTP sync"
 :id "f854bb90-236f-11f0-b540-b99e3442f89a"
 :fontWeight 400
 :noFill true
 :point [681 244]
-:fontSize 20
+:fontSize 16
 :handles 
 {:start 
 {:id "start"
@@ -174,14 +175,14 @@
 :end 
 {:id "end"
 :canBind true
-:point [95 0]
+:point [227 0]
 :bindingId "f854bb92-236f-11f0-b540-b99e3442f89a"}}
 :decorations 
 {:end "arrow"}
 :parentId "680e3806-89f0-407a-8099-4dc2593a83fc"
-:nonce 1745762426315
+:nonce 1745762426338
 :italic false}}
-:block/updated-at 1745762426380})
+:block/updated-at 1745762445456})
 :pages (
 {:block/uuid #uuid "680e3806-89f0-407a-8099-4dc2593a83fc"
 :block/properties 
@@ -225,7 +226,7 @@
 :nonce 1
 :assets []
 :shapes-index ("ce6409d0-236f-11f0-b540-b99e3442f89a" "d95a6f50-236f-11f0-b540-b99e3442f89a" "dd1e7c31-236f-11f0-b540-b99e3442f89a" "dd1e7c30-236f-11f0-b540-b99e3442f89a" "f8549480-236f-11f0-b540-b99e3442f89a" "f854bb90-236f-11f0-b540-b99e3442f89a")}}
-:block/updated-at 1745762429386
+:block/updated-at 1745762445528
 :block/created-at 1745762310245
 :block/type "whiteboard"
 :block/name "pubsub: example queues"
