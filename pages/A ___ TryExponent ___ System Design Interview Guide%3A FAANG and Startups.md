@@ -144,7 +144,9 @@
 		- Diagram for data and control flow explanation [[demonstrate - data & control flow]]
 	- Step 3: Explore the Design: Deep-Dive - 10 Minutes
 		- Non-Functional Requirements
-			- Transactions: Database that offers ACID (Atomicity, )
+			- Transactions: Database that offers ACID (Atomicity, Consistency, Isolation, and Durability) Properties
+			- Data freshness: If an online requires fresh data, think about how to speed up the data ingestion, processing and query process
+			- Data size: If the data size is small enough to fit into memory (up to hundr)
 		-
 		-
 	-
