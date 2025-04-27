@@ -244,5 +244,8 @@
 		  id:: 680e6250-d32a-4eac-97e9-fa007e46bc6e
 		- APIs communication through formats like JSON or XML, using internet protocol. A typical API integration involves a client sending a request to a specific UTL using HTTP methods (GET, POST, PUT, DELETE), and receiving a structured response.
 		- REST API's
-			- REST (Representational State Transfer) is a popular API design that emphasizes stateless communication and resource manipulation using standard HTTP methods. It simplifies interactions by using familiar web URL
+			- REST (Representational State Transfer) is a popular API design that emphasizes stateless communication and resource manipulation using standard HTTP methods. It simplifies interactions by using familiar web URL structures and methods.
+		- Other API Types
+			- RPC (Remote Procedure Call): Streamline back-end data exchanges using binary data for lightweight communications.
+			-
 	-
