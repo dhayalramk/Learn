@@ -104,6 +104,9 @@
 			  | Modifiability   | Can users customize features? Can developers change the code? |
 			  | Localization    | Will the system handle currencies and languages?              |
 		- Estimating Data
+			- QPS (Queries Per Second)
+			- Storage Size
+			- Bandwidth requirement
 			-
 	-
 	-
