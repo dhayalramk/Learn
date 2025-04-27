@@ -29,10 +29,10 @@
 	- Partitioning
 		- Partition contains a subset of the whole table. Each partition is stored on a separate server.
 			- Horizontal Partitioning -> N1, N2,.., Nx -> Vertical Partitioning
-	- Sharding
+	- [[HLD / Sharding]]
 		- Sharding allows a system to scale as data increases, but not all data is suitable for sharding.
 			- Collection 1 -> [Shard 1, Shard 2, Shard 3, ..., Shard N]
-	- Load Balancing
+	- [[HLD / Load Balancing]]
 		- Load Balancing distributes incoming traffic across multiple servers or resources.
 			- Upload Service -> Load Balancer -> [Image Processor, Image Processor, Image Processer]
 	-
