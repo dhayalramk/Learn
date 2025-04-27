@@ -19,5 +19,7 @@
 	- Synchronous
 		- Client -> (HTTP Sync) -> Service A's -> (HTTP Sync) -> Service B's
 	- Async Messaging
-		- Client -> (HTTP Sync) -> Service A's -> (Message) -> Queue ->
+		- Client -> (HTTP Sync) -> Service A's -> (Message) -> Queue -> (Message & Subscribe) -> Service B's
+	- Publish - Subscribe
+		- Client -> (HTTP Sync) -> Producer (Publish or )
 	-
