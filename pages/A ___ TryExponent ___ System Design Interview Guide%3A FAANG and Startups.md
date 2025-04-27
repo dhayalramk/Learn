@@ -157,7 +157,10 @@
 			- Single points of failure: Is there  a single point that could cause the entire system to fail? How could the system be more robust and maintain uptime?
 			- Data replication: Is the data important enough to make copies? how important is it to keep all copies the same?
 			- CDNs: Does it provide a service for people all over the world? Would data centers in different parts of the world make it faster?
-			- High traffic: Are there any special situations, like when many people use the system simultaneously,
+			- High traffic: Are there any special situations, like when many people use the system simultaneously, that could make it slow or even break it?
+			- Scalability: How can the system work for 10 times more people?
+		- Message Queues and Public or Subscribe
+			-
 		-
 		-
 	-
