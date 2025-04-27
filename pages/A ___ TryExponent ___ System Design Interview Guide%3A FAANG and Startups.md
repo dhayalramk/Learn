@@ -264,6 +264,14 @@
 			- **Delayed retries with exponential backoff**: For common transient errors to prevent the thundering herd problem, where simultaneous retries overload the system.
 		- Circuit Breakers
 			- **Operation**: Mimics physical circuit breakers by stopping repeated attempts when failures occur, thus conserving resources and preventing further issues.
+			- **Use cases**: Useful for avoiding cascading failures and enabling quick responses in performance-critical situations.
+		- Sage
+			- **Concept**: Manages distributed transactions in microservices by ensuring each component transaction completes successfully or compensatory actions are taken.
+			- **Use cases**: Maintains data consistency across services and is suitable for applications where repeated operations should not alter the outcome.
+		- Techniques & Considerations:
+			- Implement jitter in retries to avoid synchronized requests.
+			- Set appropriate configurations for circuit breakers based on anticipated recovery patterns and performance requirements.
+			- For sagas, choose between choreography for simpler setups with fewer services or orchestration for complex systems with many interdependent services.
 			-
 		-
 	-
