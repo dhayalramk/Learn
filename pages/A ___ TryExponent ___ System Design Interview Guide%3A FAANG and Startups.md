@@ -72,7 +72,16 @@
 		- Do you need to talk to pieces of an existing system?
 		- Non functional requirements
 			- Those may be related to business objectives or user experiences
-			-
+			- includes
+				- Availability
+				- Consistency
+				- Speed
+				- Security
+				- Reliability
+				- Maintainablity
+				- And Cost
+			- To understand better from interviewer
+				- What is the scale of the s
 	-
 	-
 	-
