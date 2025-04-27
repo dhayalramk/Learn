@@ -52,7 +52,16 @@
 		- AWS Elasticcache
 		- GCP Memorystore
 	- Evictions:
-		- LRU (Least )
+		- LRU (Least Recently Used)
+		- LFU (Least Freq. Used)
+		- FIFO
+		- MRU
+		- Random Eviction
+		- Least Used
+		- On-Demand Expiration
+		- Garbage Collections
+	- G6
+		- Storing
 		-
 	-
 	-
