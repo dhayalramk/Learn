@@ -81,7 +81,12 @@
 				- Maintainablity
 				- And Cost
 			- To understand better from interviewer
-				- What is the scale of the s
+				- What is the scale of the system?
+				- How many users should it support?
+				- How many requests should the server handle?
+				- Are most use bases read-only?
+				- Do users typically read the data shortly after someone else overwrites it?
+				-
 	-
 	-
 	-
