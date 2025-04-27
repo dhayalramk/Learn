@@ -238,5 +238,7 @@
 			- HTTPS: Enhances HTTP with security features, encryption data to prevent unauthotized access.
 		- TLS and Websockets
 			- TLS (Transport Layer Security): Encrypts data to secure communication, initiated through a TLS handshake process involving cipher suites and digital certificates.
-			- Websocket: Supports real-time data transfer between client and servers without the need for repeated requests, ideal for applications requiring contin
+			- WebSocket: Supports real-time data transfer between client and servers without the need for repeated requests, ideal for applications requiring continuous data flow.
+	- APIs
+		- APIs (Application Programming Interface) facili
 	-
