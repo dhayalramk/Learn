@@ -240,5 +240,6 @@
 			- TLS (Transport Layer Security): Encrypts data to secure communication, initiated through a TLS handshake process involving cipher suites and digital certificates.
 			- WebSocket: Supports real-time data transfer between client and servers without the need for repeated requests, ideal for applications requiring continuous data flow.
 	- APIs
-		- APIs (Application Programming Interface) facili
+		- APIs (Application Programming Interface) facilitates communication between the different system by defining how they can use each other's resources. They operate as a contract, specifying the request and response forma
+		  id:: 680e6250-d32a-4eac-97e9-fa007e46bc6e
 	-
