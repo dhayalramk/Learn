@@ -22,5 +22,8 @@
 		- Client -> (HTTP Sync) -> Service A's -> (Message) -> Queue -> (Message & Subscribe) -> Service B's
 	- Publish - Subscribe
 		- Client -> (HTTP Sync) -> Producer (Publish) -> Topic -> (Subscribe) -> Service A or Service B
--
+- Scalability
+	- Replication
+		- Is the data important enough to make the copies? How important is it to keep the copies the same?
+			- Active Data -> (Data Replication)
 	-
