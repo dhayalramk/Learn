@@ -144,7 +144,7 @@
 		- Diagram for data and control flow explanation [[demonstrate - data & control flow]]
 	- Step 3: Explore the Design: Deep-Dive - 10 Minutes
 		- Non-Functional Requirements
-			-
+			- Transactions: Database that offers ACID (Atomicity, )
 		-
 		-
 	-
