@@ -272,6 +272,7 @@
 			- Implement jitter in retries to avoid synchronized requests.
 			- Set appropriate configurations for circuit breakers based on anticipated recovery patterns and performance requirements.
 			- For sagas, choose between choreography for simpler setups with fewer services or orchestration for complex systems with many interdependent services.
-			-
+	- Availability
+		-
 		-
 	-
