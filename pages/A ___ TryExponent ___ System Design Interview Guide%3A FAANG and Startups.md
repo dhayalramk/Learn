@@ -131,7 +131,9 @@
 		- Database Cheat sheet for AWS, Azure, and Google Cloud
 		- |  |  |  AWS | Azure | Google Cloud | Cloud Alternatives |
 		  | Structured | ACID Transactions -> Relational | RDS, Aurora | Azure SQL Database | Cloud SQL, Cloud Spanner | MySQL, PostgreSQL, SQL Server, Oracle |
-		  |  | Analytics (OLAP) -> Columnar | Redshift | Azure Synapse |
+		  |  | Analytics (OLAP) -> Columnar | Redshift | Azure Synapse | BigQuery | Snowflake, ClickHouse, Druid, Pinot, Databricks |
+		  | Semi-Structured | Nested Objects (XML, JSON)
+		-
 		-
 	-
 	-
