@@ -1,0 +1,92 @@
+{:blocks (
+{:block/content "User"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "680e31f7-5505-4442-9120-855825c20da0"}
+:block/parent 
+{:block/uuid #uuid "680e31f7-5505-4442-9120-855825c20da0"}
+:block/properties 
+{}
+:block/uuid #uuid "680e320c-1973-4a04-9093-ade59edfe434"} 
+{:block/created-at 1745760787938
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "680e320c-1973-4a04-9093-ade59edfe434"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [96 40.79999923706055]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "202b8ad0-236c-11f0-b540-b99e3442f89a"
+:noFill false
+:point [384 232]
+:parentId "680e31f7-5505-4442-9120-855825c20da0"
+:collapsedHeight 0
+:nonce 1745760775223}}
+:block/updated-at 1745760787938} 
+{:block/content "API Server"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "680e320c-1973-4a04-9093-ade59edfe434"}
+:block/parent 
+{:block/uuid #uuid "680e31f7-5505-4442-9120-855825c20da0"}
+:block/properties 
+{}
+:block/uuid #uuid "680e324d-b4c6-4d1c-9779-9a094b48e56b"} 
+{:block/created-at 1745760860784
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "680e324d-b4c6-4d1c-9779-9a094b48e56b"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [128 40.79999923706055]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "49043ce0-236c-11f0-b540-b99e3442f89a"
+:noFill false
+:point [552 232]
+:parentId "680e31f7-5505-4442-9120-855825c20da0"
+:collapsedHeight 0
+:nonce 1745760843786}}
+:block/updated-at 1745760860784})
+:pages (
+{:block/uuid #uuid "680e31f7-5505-4442-9120-855825c20da0"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "680e31f7-5505-4442-9120-855825c20da0"
+:name "demonstrate - data & control flow"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("202b8ad0-236c-11f0-b540-b99e3442f89a" "49043ce0-236c-11f0-b540-b99e3442f89a")}}
+:block/updated-at 1745760860784
+:block/created-at 1745760759043
+:block/type "whiteboard"
+:block/name "demonstrate - data & control flow"
+:block/original-name "demonstrate - data & control flow"})}
