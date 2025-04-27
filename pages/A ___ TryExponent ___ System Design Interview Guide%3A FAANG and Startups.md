@@ -228,6 +228,7 @@
 		- Web protocols are the foundation of network communication, essential for the functioning of distributed systems. They include standards and rules for data exchange over a network, involving physical infrastructure like servers and client machines.
 		- Network protocols ensure standardized communication amount machines, crucial for maintaining order and functionality in network interactions. The internet primarily uses two models, TCP/IP and OSI, to structure these communications.
 		- TCP/IP Protocol and OSI Models
-			- TCP/IP Protocol: Consists of four layers: Network Access, Internet, Transport and Application. It uses protocol like IP (Internet Protocol)
+			- TCP/IP Protocol: Consists of four layers: Network Access, Internet, Transport and Application. It uses protocol like IP (Internet Protocol) and TCP (Transmission Control Protocol) to facilitate data transmission across network ideas.
+			- OSI Model: A more conceptual, seven-layer model that provides a detailed
 	-
 	-
