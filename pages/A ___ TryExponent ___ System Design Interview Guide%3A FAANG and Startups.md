@@ -195,6 +195,14 @@
 		- Design Dropbox
 		- Design a app to download user data
 	- Payments & Marketplaces
-		- Design a
+		- Design a Parking Garage
+		- Design Amazon Kindle Payments
+		- Design a Hotel Booking Service
+		- Design Zillow
+		- Design a Vending Macine
+		- Design Ticketmaster
+	- Distributed Infrastructure
+		- Design a key value store
+		-
 	-
 	-
