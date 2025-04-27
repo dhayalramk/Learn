@@ -235,6 +235,8 @@
 			- UDP: Offers faster transmission by eliminating error-checking processes. used in applications like live streaming where speed is preferred over accuracy.
 		- HTTP and HTTPS
 			- HTTP: An application layer protocol for transmitting hyperlinks and web content using request methods like GET and POST
-			- HTTPS: Enhances
+			- HTTPS: Enhances HTTP with security features, encryption data to prevent unauthotized access.
+		- TLS and Websockets
+			- TLS (Transport Layer )
 	-
 	-
