@@ -45,7 +45,14 @@
 		- Read-Through
 		- Write-Around
 		- Write-Back
-	- G3
+	- Popular caches:
+		- In-memory
+		- Redis
+		- memcached
+		- AWS Elasticcache
+		- GCP Memorystore
+	- Evictions:
+		- LRU (Least )
 		-
 	-
 	-
