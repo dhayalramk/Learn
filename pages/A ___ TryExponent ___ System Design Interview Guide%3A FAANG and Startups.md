@@ -70,7 +70,9 @@
 		- What should be included and excluded?
 		- Who are the clients and consumers?
 		- Do you need to talk to pieces of an existing system?
-	-
+		- Non functional requirements
+			- Those may be related to business objectives or user experiences
+			-
 	-
 	-
 	-
