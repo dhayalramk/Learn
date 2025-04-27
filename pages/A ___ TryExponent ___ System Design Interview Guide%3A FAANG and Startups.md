@@ -30,5 +30,6 @@
 		- Partition contains a subset of the whole table. Each partition is stored on a separate server.
 			- Horizontal Partitioning -> N1, N2,.., Nx -> Vertical Partitioning
 	- Sharding
-		- Sharding allows
+		- Sharding allows a system to scale as data increases, but not all data is suitable for sharding.
+			- Collection 1 -> [Shard 1, Shard 2, Shard 3, ... Shard N]
 	-
