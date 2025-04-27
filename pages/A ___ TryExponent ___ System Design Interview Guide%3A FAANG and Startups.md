@@ -214,6 +214,12 @@
 	- Load Balancing
 	- SQL vs NoSQL
 	- Database Sharding
-	-
+	- Database Replication
+	- Consistent Hashing
+	- Cap Theorem
+	- Asynchronous Processing
+	- Caching
+	- Encryption
+	- Authentication and Autho
 	-
 	-
