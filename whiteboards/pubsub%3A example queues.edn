@@ -1,5 +1,5 @@
 {:blocks (
-{:block/content "Synchronous"
+{:block/content "Async Messaging"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "680e3806-89f0-407a-8099-4dc2593a83fc"}
@@ -182,7 +182,124 @@
 :parentId "680e3806-89f0-407a-8099-4dc2593a83fc"
 :nonce 1745762426338
 :italic false}}
-:block/updated-at 1745762445456})
+:block/updated-at 1745762445456} 
+{:block/created-at 1745769765614
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 6
+:scale [1 -1]
+:pageId "680e3835-666c-443d-a807-a6dc7a2b7f4f"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 40.79999923706055]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "0abb0f30-2381-11f0-b540-b99e3442f89a"
+:noFill false
+:isLocked false
+:point [184 376]
+:parentId "680e3806-89f0-407a-8099-4dc2593a83fc"
+:collapsedHeight 0
+:nonce 1745762356126}}
+:block/updated-at 1745769765614} 
+{:block/created-at 1745769781646
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 7
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "ellipse"
+:size [144 120]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "Client"
+:id "168873c0-2381-11f0-b540-b99e3442f89a"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [176 536]
+:fontSize 20
+:parentId "680e3806-89f0-407a-8099-4dc2593a83fc"
+:nonce 1745762374561
+:italic false}}
+:block/updated-at 1745769781646} 
+{:block/created-at 1745769800075
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:borderRadius 2
+:index 9
+:scale [1 1]
+:refs []
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [144 120]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "Producer"
+:id "1b490910-2381-11f0-b540-b99e3442f89a"
+:fontWeight 400
+:noFill false
+:isLocked false
+:point [528 536]
+:fontSize 20
+:parentId "680e3806-89f0-407a-8099-4dc2593a83fc"
+:nonce 1745769795642
+:italic false}}
+:block/updated-at 1745769800075} 
+{:block/created-at 1745769807566
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 8
+:scale [1 1]
+:scaleLevel "sm"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "HTTP Sync"
+:id "1b493020-2381-11f0-b540-b99e3442f89a"
+:fontWeight 400
+:noFill true
+:point [321 596]
+:fontSize 16
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "1b493021-2381-11f0-b540-b99e3442f89a"}
+:end 
+{:id "end"
+:canBind true
+:point [203 0]
+:bindingId "1b493022-2381-11f0-b540-b99e3442f89a"}}
+:decorations 
+{:end "arrow"}
+:parentId "680e3806-89f0-407a-8099-4dc2593a83fc"
+:nonce 1745769786425
+:italic false}}
+:block/updated-at 1745769807566})
 :pages (
 {:block/uuid #uuid "680e3806-89f0-407a-8099-4dc2593a83fc"
 :block/properties 
@@ -222,11 +339,27 @@
 :toId "f8549480-236f-11f0-b540-b99e3442f89a"
 :handleId "end"
 :point [0.5 0.5]
+:distance 4}
+:1b493021-2381-11f0-b540-b99e3442f89a 
+{:id "1b493021-2381-11f0-b540-b99e3442f89a"
+:type "line"
+:fromId "1b493020-2381-11f0-b540-b99e3442f89a"
+:toId "168873c0-2381-11f0-b540-b99e3442f89a"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:1b493022-2381-11f0-b540-b99e3442f89a 
+{:id "1b493022-2381-11f0-b540-b99e3442f89a"
+:type "line"
+:fromId "1b493020-2381-11f0-b540-b99e3442f89a"
+:toId "1b490910-2381-11f0-b540-b99e3442f89a"
+:handleId "end"
+:point [0.5 0.5]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("ce6409d0-236f-11f0-b540-b99e3442f89a" "d95a6f50-236f-11f0-b540-b99e3442f89a" "dd1e7c31-236f-11f0-b540-b99e3442f89a" "dd1e7c30-236f-11f0-b540-b99e3442f89a" "f8549480-236f-11f0-b540-b99e3442f89a" "f854bb90-236f-11f0-b540-b99e3442f89a")}}
-:block/updated-at 1745762445528
+:shapes-index ("ce6409d0-236f-11f0-b540-b99e3442f89a" "d95a6f50-236f-11f0-b540-b99e3442f89a" "dd1e7c31-236f-11f0-b540-b99e3442f89a" "dd1e7c30-236f-11f0-b540-b99e3442f89a" "f8549480-236f-11f0-b540-b99e3442f89a" "f854bb90-236f-11f0-b540-b99e3442f89a" "0abb0f30-2381-11f0-b540-b99e3442f89a" "168873c0-2381-11f0-b540-b99e3442f89a" "1b493020-2381-11f0-b540-b99e3442f89a" "1b490910-2381-11f0-b540-b99e3442f89a")}}
+:block/updated-at 1745769807604
 :block/created-at 1745762310245
 :block/type "whiteboard"
 :block/name "pubsub: example queues"
