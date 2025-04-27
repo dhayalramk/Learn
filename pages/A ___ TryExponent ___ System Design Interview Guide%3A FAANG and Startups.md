@@ -8,4 +8,5 @@
 		- Data: JSON, XML, YAML, HTML, Plain Text
 		- Use Cases: Web based apps, cloud apps, client-server apps, cloud computing services, developer APIs
 	- RPC
-		-
+		- Properties: action-oriented, high performance
+		- Data: JSON, XML, Thrift, Protobuf
