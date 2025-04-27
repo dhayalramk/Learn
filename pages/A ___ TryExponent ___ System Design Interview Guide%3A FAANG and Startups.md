@@ -225,6 +225,6 @@
 		- Cloud Architecture
 		- CDNs
 	- Web Protocols
-		-
+		- Web protocols are the foundation of network communication, essential for the functioning of distributed systems. They
 	-
 	-
