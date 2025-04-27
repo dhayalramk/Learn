@@ -17,5 +17,7 @@
 		- Use Cases: High performance mobile apps, complex systems and microservice based architectures
 - Ways
 	- Synchronous
-		- Client -> (HTTP Sync) -> Services -> (HTTP Sync) ->
+		- Client -> (HTTP Sync) -> Service A's -> (HTTP Sync) -> Service B's
+	- Async Messaging
+		- Client -> (HTTP Sync) -> Service A's -> (Message) -> Queue ->
 	-
