@@ -66,7 +66,11 @@
 		- Caching frequent databases lookups
 - Approach the problem
 	- Step 1. Understanding the Problem - 10 Minutes
-		- Whar
+		- What are the fundamental and non-fundamental requirements?
+		- What should be included and excluded?
+		- Who are the clients and consumers?
+		- Do you need to talk to pieces of an existing system?
+	-
 	-
 	-
 	-
