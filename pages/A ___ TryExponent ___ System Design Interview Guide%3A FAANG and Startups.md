@@ -143,7 +143,8 @@
 		  |  | (media) -> Blob | Amazon S3 | Blob Storage | Cloud Storage | HDFS, Cloudflare R2, MinIO |
 		- Diagram for data and control flow explanation [[demonstrate - data & control flow]]
 	- Step 3: Explore the Design: Deep-Dive - 10 Minutes
-		-
+		- Non-Functional Requirements
+			-
 		-
 		-
 	-
