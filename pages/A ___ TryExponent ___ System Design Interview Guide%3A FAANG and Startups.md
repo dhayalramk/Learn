@@ -2,4 +2,7 @@
 - Authors: [[Tom Lu]] , [[Neeraj Gupta]], [[Praveen Dubey]]
 - Before starting this article, got doubt about [[HLD vs SLD]], so understood the basics
 - Helpful tools to design: [[Tools / Whimsical]], [[Tools / Google Drawings]], [[Tools / Miro]]
--
+- API Design Choices
+	- Rest API
+		- Properties: Resource Oriented, Data Driven, Flexible
+		- Data: JSON, XML, YAML, HT
