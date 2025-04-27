@@ -64,7 +64,9 @@
 		- Storing user session
 		- Communication between microservices
 		- Caching frequent databases lookups
--
+- Approach the problem
+	- Step 1. Understanding the Problem - 10 Minutes
+		- Whar
 	-
 	-
 	-
