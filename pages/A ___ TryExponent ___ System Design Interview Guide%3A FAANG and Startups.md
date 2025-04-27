@@ -138,7 +138,8 @@
 		  |   | 2-D Key-Value  -> Wide column | Keyspaces | Cosmos DB | Bigtable | HBase, Cassandra, ScyllaDB | 
 		  |  | Time Series -> Time Series | Timestream | Cosmos DB | BigTable, BigQuery | InfluxDB, ScyllaDB, Timescale | 
 		  |  | Location & Geo-entities -> Geospatial | Keyspaces | Cosmos DB | BigTable, BigQuery | Solr, PostGIS, MongoDB | 
-		  |  | Entity - Relationships -> Graph | Neptune | Cosmo
+		  |  | Entity - Relationships -> Graph | Neptune | Cosmos DB | JanusGraph, BigTable | Neo4J, OrientDB, Giraph | 
+		  | Unstructured | Full Text Search -> Text Search | OpenSearch, CloudSearch | Cognite Search |
 		-
 		-
 	-
