@@ -1,4 +1,4 @@
-- Tags [[HLD]], [[SLD]]
+- Difference between [[HLD]], [[SLD]] 
   | Aspect | High Level Design (HLD) | System Level Design (SLD) |
   | ---- | ---- | ---- |
   | **Focus** | *Architecture* and *structure* of the overall system | *Detailed* internal working of system components |
