@@ -67,7 +67,6 @@
 		- Communication between microservices
 		- Caching frequent databases lookups
 - Approach the problem
-  collapsed:: true
 	- Step 1. Understanding the Problem - 10 Minutes
 	  collapsed:: true
 		- What are the fundamental and non-fundamental requirements?
@@ -207,6 +206,14 @@
 		- Design a Distributed Message Queue
 		- Design a URl shortner
 		- Design Typehead for Search
-		-
+- Fundamental Principles and Concepts
+	- Web Protocols
+	- APIs
+	- Reliablity
+	- Availablity
+	- Load Balancing
+	- SQL vs NoSQL
+	- Database Sharding
+	-
 	-
 	-
