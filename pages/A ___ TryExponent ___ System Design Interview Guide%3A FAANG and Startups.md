@@ -107,7 +107,8 @@
 			- QPS (Queries Per Second)
 			- Storage Size
 			- Bandwidth requirement
-			-
+	- Step 2: High-Level System Design - 10 Minutes
+		-
 	-
 	-
 	-
