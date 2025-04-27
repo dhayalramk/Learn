@@ -108,7 +108,23 @@
 			- Storage Size
 			- Bandwidth requirement
 	- Step 2: High-Level System Design - 10 Minutes
-		-
+		- Types of API
+			- Representational State Transfer [REST]
+			- Simple Object Access Protocol [SOAP]
+			- Remote Procedure Call [RPC]
+			- or GrapgQL
+		- Server and client communication
+			- Ajax Polling
+			- Long Polling
+			- WebSockets
+			- Server-Sent Events
+			- |  | Pros | Cons |
+			  | Ajax Pooling | Easy to Implement, works with all browsers | High Server load, high latency |
+			  | Long Pooling | Low latency, less server load | High server load, not supported by all browsers |
+			  | Websockets | Read-time communication | May require more complex server setup |
+			  | Server - Sent Events | Efficient, Low latency | Unidirectional communication, not supported by all browsers |
+		- Data Modelling
+			- Creating a simplified schema that lists only the most important fields
 	-
 	-
 	-
