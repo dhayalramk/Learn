@@ -28,5 +28,7 @@
 			- Active Data -> (Data Replication) -> Mirrored Data
 	- Partitioning
 		- Partition contains a subset of the whole table. Each partition is stored on a separate server.
-			- Horizontal Partitioning
+			- Horizontal Partitioning -> N1, N2,.., Nx -> Vertical Partitioning
+	- Sharding
+		- Sharding allows
 	-
