@@ -247,5 +247,6 @@
 			- REST (Representational State Transfer) is a popular API design that emphasizes stateless communication and resource manipulation using standard HTTP methods. It simplifies interactions by using familiar web URL structures and methods.
 		- Other API Types
 			- RPC (Remote Procedure Call): Streamline back-end data exchanges using binary data for lightweight communications.
-			-
+			- GraphQL: Allows client to define precisely what data they need, optimizing flexibility and reducing data transfer
+			- SOAP
 	-
