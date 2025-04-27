@@ -7,3 +7,5 @@
 		- Properties: Resource Oriented, Data Driven, Flexible
 		- Data: JSON, XML, YAML, HTML, Plain Text
 		- Use Cases: Web based apps, cloud apps, client-server apps, cloud computing services, developer APIs
+	- RPC
+		-
