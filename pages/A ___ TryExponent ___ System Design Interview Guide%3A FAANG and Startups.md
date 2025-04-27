@@ -132,7 +132,8 @@
 		- |  |  |  AWS | Azure | Google Cloud | Cloud Alternatives |
 		  | Structured | ACID Transactions -> Relational | RDS, Aurora | Azure SQL Database | Cloud SQL, Cloud Spanner | MySQL, PostgreSQL, SQL Server, Oracle |
 		  |  | Analytics (OLAP) -> Columnar | Redshift | Azure Synapse | BigQuery | Snowflake, ClickHouse, Druid, Pinot, Databricks |
-		  | Semi-Structured | Nested Objects (XML, JSON)
+		  | Semi-Structured | Nested Objects (XML, JSON) -> Document | Document DB | Cosmos DB | Firestore | MongoDB, Couchbase, Solr |
+		  |  | Dictionary -> Key - Value | Dynamo DB | Cosmos DB | BigTable | Redis, ScyllaDB,
 		-
 		-
 	-
