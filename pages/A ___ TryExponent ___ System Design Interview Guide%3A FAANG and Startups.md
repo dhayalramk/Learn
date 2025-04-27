@@ -9,4 +9,9 @@
 		- Use Cases: Web based apps, cloud apps, client-server apps, cloud computing services, developer APIs
 	- RPC
 		- Properties: action-oriented, high performance
-		- Data: JSON, XML, Thrift, Protobuf
+		- Data: JSON, XML, Thrift, Protobuf, FlatButters
+		-
+	- GrapfQL
+		- Properties: Single Endpoint, Strongly typed language,
+		- Data: JSON
+	-
