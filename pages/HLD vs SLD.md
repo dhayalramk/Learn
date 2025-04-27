@@ -3,11 +3,7 @@
   | **Focus** | *Architecture* and *structure* of the overall system | *Detailed* internal working of system components |
   | **Viewpoint** | "What are the major parts and how do they interact?" | "Exactly how does each part work internally?" |
   | **Granularity** | Abstract, broader view | Detailed, fine-grained view |
-  | **Output** | + Component diagrams
-- Communication flow
-- Tech stack decisions | - Class diagrams
-- Data models
-- APIs, database schemas |
+  | **Output** |  + Component diagrams + Communication flow + Tech stack decisions | + Class diagrams + Data modelsAPIs, database schemas |
   | **Audience** | Architects, senior developers, stakeholders | Developers, testers, engineers |
   | **Example for a Web App** | - Client-Server architecture
 - APIs between services
