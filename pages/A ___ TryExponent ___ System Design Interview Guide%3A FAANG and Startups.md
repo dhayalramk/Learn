@@ -177,6 +177,14 @@
 		-
 	- Step 5: Wrap up
 - Top Interview questions
-	-
+	- Real Time Events
+		- Design Face Messenger
+		- Design Uber Eats
+		- Design Whatsapp
+		- Design Tinder
+		- Design ChatGPT
+	- Media & Content Delivery
+		- Design YouTube
+		-
 	-
 	-
