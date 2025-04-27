@@ -103,6 +103,7 @@
 			  | Maintainability | How will you troubleshoot the system?                         |
 			  | Modifiability   | Can users customize features? Can developers change the code? |
 			  | Localization    | Will the system handle currencies and languages?              |
+		- Estimating Data
 			-
 	-
 	-
