@@ -1,4 +1,5 @@
 - Link: https://www.tryexponent.com/blog/system-design-interview-guide
 - Authors: [[Tom Lu]] , [[Neeraj Gupta]], [[Praveen Dubey]]
 - Before starting this article, got doubt about [[HLD vs SLD]], so understood the basics
+- Helpful tools to design: [[Tools / Whimsical]], [[Tools / Google Drawings]]
 -
