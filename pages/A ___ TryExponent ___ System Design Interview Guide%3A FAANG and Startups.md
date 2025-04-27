@@ -33,5 +33,7 @@
 		- Sharding allows a system to scale as data increases, but not all data is suitable for sharding.
 			- Collection 1 -> [Shard 1, Shard 2, Shard 3, ..., Shard N]
 	- Load Balancing
-		- Load Balancing distribute
+		- Load Balancing distributes incoming traffic across multiple servers or resources.
+			- Upload Service -> Load Balancer -> [Image Processor, Image Processor, Image Processer]
+	-
 	-
