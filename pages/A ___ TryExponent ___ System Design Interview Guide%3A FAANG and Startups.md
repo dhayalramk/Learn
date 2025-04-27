@@ -38,6 +38,14 @@
 - Notes:
 	- G1
 		- No. Items
-		- Cache miss &
+		- Cache Miss & Hit
+		- Disk & Memory Usage
+	- G2
+		- Write-Through
+		- Read-Through
+		- Write-Around
+		- Write-Back
+	- G3
+		-
 	-
 	-
