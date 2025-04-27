@@ -110,7 +110,7 @@
 :nonce 1745760881232
 :italic false}}
 :block/updated-at 1745760931524} 
-{:block/content "User Service\n\n\nFriendship"
+{:block/content "User Service\n\n\nFriendship Service\n\n\nTweet Service\n\n\nFeed Service"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "680e324d-b4c6-4d1c-9779-9a094b48e56b"}
@@ -119,12 +119,13 @@
 :block/properties 
 {}
 :block/uuid #uuid "680e32b5-4869-4ee8-8b85-cf229f36928b"} 
-{:block/created-at 1745760986055
+{:block/created-at 1745761029860
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "B"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 3
@@ -135,7 +136,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 112.79998988659372]
+:size [480 256.8000038076022]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -144,8 +145,33 @@
 :point [776 168]
 :parentId "680e31f7-5505-4442-9120-855825c20da0"
 :collapsedHeight 0
-:nonce 1745760945604}}
-:block/updated-at 1745760986055})
+:nonce 1745760945636}}
+:block/updated-at 1745761029860} 
+{:block/created-at 1745761043616
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:borderRadius 2
+:index 4
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "box"
+:size [176 64]
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label "User Service"
+:id "bcb36940-236c-11f0-b540-b99e3442f89a"
+:fontWeight 400
+:noFill false
+:point [776 168]
+:fontSize 10
+:parentId "680e31f7-5505-4442-9120-855825c20da0"
+:nonce 1745761037842
+:italic false}}
+:block/updated-at 1745761043616})
 :pages (
 {:block/uuid #uuid "680e31f7-5505-4442-9120-855825c20da0"
 :block/properties 
@@ -188,8 +214,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("202b8ad0-236c-11f0-b540-b99e3442f89a" "49043ce0-236c-11f0-b540-b99e3442f89a" "5f428342-236c-11f0-b540-b99e3442f89a" "85c18de0-236c-11f0-b540-b99e3442f89a")}}
-:block/updated-at 1745760990402
+:shapes-index ("202b8ad0-236c-11f0-b540-b99e3442f89a" "49043ce0-236c-11f0-b540-b99e3442f89a" "5f428342-236c-11f0-b540-b99e3442f89a" "85c18de0-236c-11f0-b540-b99e3442f89a" "bcb36940-236c-11f0-b540-b99e3442f89a")}}
+:block/updated-at 1745761047055
 :block/created-at 1745760759043
 :block/type "whiteboard"
 :block/name "demonstrate - data & control flow"
