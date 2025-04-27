@@ -91,7 +91,8 @@
 				- If many design constrains, then focus on most critical one
 					- Example: Social media design
 						- Focus on photos and timeline generation services.
-						- Lesser focus on: User re
+						- Lesser focus on: User registration and follow another user.
+			-
 	-
 	-
 	-
