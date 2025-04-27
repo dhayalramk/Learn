@@ -26,7 +26,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "680e32b5-4869-4ee8-8b85-cf229f36928b"} 
-{:block/created-at 1745761164751
+{:block/created-at 1745761221020
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -49,11 +49,11 @@
 :opacity 1
 :id "85c18de0-236c-11f0-b540-b99e3442f89a"
 :noFill false
-:point [776 168]
+:point [384 120]
 :parentId "680e31f7-5505-4442-9120-855825c20da0"
 :collapsedHeight 0
-:nonce 1745760945732}}
-:block/updated-at 1745761164751} 
+:nonce 1745760945914}}
+:block/updated-at 1745761221020} 
 {:block/created-at 1745761164755
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -105,54 +105,92 @@
 :nonce 1745761038350
 :italic false}}
 :block/updated-at 1745761164755} 
-{:block/created-at 1745761164755
+{:block/created-at 1745761209855
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
 :index 3
 :scale [1 1]
-:scaleLevel "xs"
+:scaleLevel "sm"
 :fill ""
 :type "ellipse"
 :size [128 104]
 :strokeType "line"
-:strokeWidth 1
+:strokeWidth 1.6
 :opacity 1
 :label "Users"
 :id "fc361bd0-236c-11f0-b540-b99e3442f89a"
 :fontWeight 400
 :noFill false
 :point [376 248]
-:fontSize 10
+:fontSize 16
 :parentId "680e31f7-5505-4442-9120-855825c20da0"
-:nonce 1745761144589
+:nonce 1745761144590
 :italic false}}
-:block/updated-at 1745761164755} 
-{:block/properties 
+:block/updated-at 1745761209855} 
+{:block/created-at 1745761206657
+:block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
+:rotation 0
 :borderRadius 2
-:index 4
+:index 5
 :scale [1 1]
-:scaleLevel "xs"
+:refs []
+:scaleLevel "sm"
 :fill ""
 :type "box"
-:size [128 56]
+:size [128 72]
+:strokeType "line"
+:strokeWidth 1.6
+:opacity 1
+:label "API Server"
+:id "0ce420d0-236d-11f0-b540-b99e3442f89a"
+:fontWeight 400
+:noFill false
+:point [568 264]
+:fontSize 16
+:parentId "680e31f7-5505-4442-9120-855825c20da0"
+:nonce 1745761191505
+:italic false}}
+:block/updated-at 1745761206657} 
+{:block/created-at 1745761201676
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 4
+:scale [1 1]
+:fill ""
+:type "line"
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
 :label ""
-:id "0790c160-236d-11f0-b540-b99e3442f89a"
+:id "0ce447e0-236d-11f0-b540-b99e3442f89a"
 :fontWeight 400
-:noFill false
-:point [600 256]
-:fontSize 10
+:noFill true
+:point [505 300]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "0ce447e1-236d-11f0-b540-b99e3442f89a"}
+:end 
+{:id "end"
+:canBind true
+:point [59 0]
+:bindingId "0ce447e2-236d-11f0-b540-b99e3442f89a"}}
+:decorations 
+{:end "arrow"}
 :parentId "680e31f7-5505-4442-9120-855825c20da0"
-:nonce 1745761163442
+:nonce 1745761172386
 :italic false}}
-:block/updated-at 1745761164755})
+:block/updated-at 1745761201676})
 :pages (
 {:block/uuid #uuid "680e31f7-5505-4442-9120-855825c20da0"
 :block/properties 
@@ -161,11 +199,26 @@
 {:id "680e31f7-5505-4442-9120-855825c20da0"
 :name "demonstrate - data & control flow"
 :bindings 
-{}
+{:0ce447e1-236d-11f0-b540-b99e3442f89a 
+{:id "0ce447e1-236d-11f0-b540-b99e3442f89a"
+:type "line"
+:fromId "0ce447e0-236d-11f0-b540-b99e3442f89a"
+:toId "fc361bd0-236c-11f0-b540-b99e3442f89a"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:0ce447e2-236d-11f0-b540-b99e3442f89a 
+{:id "0ce447e2-236d-11f0-b540-b99e3442f89a"
+:type "line"
+:fromId "0ce447e0-236d-11f0-b540-b99e3442f89a"
+:toId "0ce420d0-236d-11f0-b540-b99e3442f89a"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("85c18de0-236c-11f0-b540-b99e3442f89a" "bcb36940-236c-11f0-b540-b99e3442f89a" "dcd23850-236c-11f0-b540-b99e3442f89a" "fc361bd0-236c-11f0-b540-b99e3442f89a" "0790c160-236d-11f0-b540-b99e3442f89a")}}
-:block/updated-at 1745761164751
+:shapes-index ("85c18de0-236c-11f0-b540-b99e3442f89a" "bcb36940-236c-11f0-b540-b99e3442f89a" "dcd23850-236c-11f0-b540-b99e3442f89a" "fc361bd0-236c-11f0-b540-b99e3442f89a" "0ce447e0-236d-11f0-b540-b99e3442f89a" "0ce420d0-236d-11f0-b540-b99e3442f89a")}}
+:block/updated-at 1745761221020
 :block/created-at 1745760759043
 :block/type "whiteboard"
 :block/name "demonstrate - data & control flow"
