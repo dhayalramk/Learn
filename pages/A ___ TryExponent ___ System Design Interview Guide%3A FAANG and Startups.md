@@ -137,7 +137,8 @@
 		  |  | Cache -> In-memory | ElastiCache | Azure Cache for Redis | Memory-store | Redis, Memcached, Ignite | 
 		  |   | 2-D Key-Value  -> Wide column | Keyspaces | Cosmos DB | Bigtable | HBase, Cassandra, ScyllaDB | 
 		  |  | Time Series -> Time Series | Timestream | Cosmos DB | BigTable, BigQuery | InfluxDB, ScyllaDB, Timescale | 
-		  |  | Location & Geo-entities | Geospa
+		  |  | Location & Geo-entities -> Geospatial | Keyspaces | Cosmos DB | BigTable, BigQuery | Solr, PostGIS, MongoDB | 
+		  |  | Entity - Relationships -> Graph | Neptune | Cosmo
 		-
 		-
 	-
