@@ -66,6 +66,7 @@
 		- Caching frequent databases lookups
 - Approach the problem
 	- Step 1. Understanding the Problem - 10 Minutes
+	  collapsed:: true
 		- What are the fundamental and non-fundamental requirements?
 		- What should be included and excluded?
 		- Who are the clients and consumers?
@@ -108,6 +109,7 @@
 			- Storage Size
 			- Bandwidth requirement
 	- Step 2: High-Level System Design - 10 Minutes
+	  collapsed:: true
 		- Types of API
 			- Representational State Transfer [REST]
 			- Simple Object Access Protocol [SOAP]
@@ -143,6 +145,7 @@
 		  |  | (media) -> Blob | Amazon S3 | Blob Storage | Cloud Storage | HDFS, Cloudflare R2, MinIO |
 		- Diagram for data and control flow explanation [[demonstrate - data & control flow]]
 	- Step 3: Explore the Design: Deep-Dive - 10 Minutes
+	  collapsed:: true
 		- Non-Functional Requirements
 			- Transactions: Database that offers ACID (Atomicity, Consistency, Isolation, and Durability) Properties
 			- Data freshness: If an online requires fresh data, think about how to speed up the data ingestion, processing and query process
