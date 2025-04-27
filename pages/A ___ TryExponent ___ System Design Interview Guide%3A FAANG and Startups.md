@@ -125,6 +125,9 @@
 			  | Server - Sent Events | Efficient, Low latency | Unidirectional communication, not supported by all browsers |
 		- Data Modelling
 			- Creating a simplified schema that lists only the most important fields
+			- Discussing data access patterns and the read-to-write ratio
+			- Considering indexing options
+			- And at a high level, identifying which database to use.
 	-
 	-
 	-
