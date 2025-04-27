@@ -1,5 +1,5 @@
 {:blocks (
-{:block/content "Async Messaging"
+{:block/content "Pub Sub"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "680e3806-89f0-407a-8099-4dc2593a83fc"}
@@ -183,7 +183,7 @@
 :nonce 1745762426338
 :italic false}}
 :block/updated-at 1745762445456} 
-{:block/created-at 1745769765614
+{:block/created-at 1745769896690
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -207,11 +207,11 @@
 :id "0abb0f30-2381-11f0-b540-b99e3442f89a"
 :noFill false
 :isLocked false
-:point [184 376]
+:point [192 376]
 :parentId "680e3806-89f0-407a-8099-4dc2593a83fc"
 :collapsedHeight 0
-:nonce 1745762356126}}
-:block/updated-at 1745769765614} 
+:nonce 1745762356242}}
+:block/updated-at 1745769896690} 
 {:block/created-at 1745769781646
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -389,7 +389,7 @@
 :nonce 1745769845596
 :italic false}}
 :block/updated-at 1745769851423} 
-{:block/created-at 1745769851419
+{:block/created-at 1745769868727
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -401,7 +401,7 @@
 :strokeType "line"
 :strokeWidth 1
 :opacity 1
-:label ""
+:label "Subscribe"
 :id "3e84cf90-2381-11f0-b540-b99e3442f89a"
 :fontWeight 400
 :noFill true
@@ -421,9 +421,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "680e3806-89f0-407a-8099-4dc2593a83fc"
-:nonce 1745769845528
+:nonce 1745769845537
 :italic false}}
-:block/updated-at 1745769851419} 
+:block/updated-at 1745769868727} 
 {:block/created-at 1745769858484
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -593,7 +593,7 @@
 :nonce 1
 :assets []
 :shapes-index ("ce6409d0-236f-11f0-b540-b99e3442f89a" "d95a6f50-236f-11f0-b540-b99e3442f89a" "dd1e7c31-236f-11f0-b540-b99e3442f89a" "dd1e7c30-236f-11f0-b540-b99e3442f89a" "f8549480-236f-11f0-b540-b99e3442f89a" "f854bb90-236f-11f0-b540-b99e3442f89a" "0abb0f30-2381-11f0-b540-b99e3442f89a" "168873c0-2381-11f0-b540-b99e3442f89a" "1b493020-2381-11f0-b540-b99e3442f89a" "1b490910-2381-11f0-b540-b99e3442f89a" "2ff823f0-2381-11f0-b540-b99e3442f89a" "2ff84b00-2381-11f0-b540-b99e3442f89a" "3e84a880-2381-11f0-b540-b99e3442f89a" "3e84cf90-2381-11f0-b540-b99e3442f89a" "433fe6a0-2381-11f0-b540-b99e3442f89a" "43400db0-2381-11f0-b540-b99e3442f89a")}}
-:block/updated-at 1745769858484
+:block/updated-at 1745769896690
 :block/created-at 1745762310245
 :block/type "whiteboard"
 :block/name "pubsub: example queues"
