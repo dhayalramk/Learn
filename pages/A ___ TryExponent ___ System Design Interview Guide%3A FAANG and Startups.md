@@ -249,5 +249,11 @@
 			- RPC (Remote Procedure Call): Streamline back-end data exchanges using binary data for lightweight communications.
 			- GraphQL: Allows client to define precisely what data they need, optimizing flexibility and reducing data transfer
 			- SOAP(Simple Object Access Protocol): Used a text-based format to ensure high security protocol, suitable for transactions requiring strict compliance.
-		- Desin
+		- Design Consideration:
+			- Design patterns such as pagination facilitate efficient data retrieval, while idempotency ensures reliable transaction processing.
+		- API Security and Management
+			- API gateways enhance security by serving as a control point for incoming and outgoing traffic. They manage authentication, rate limiting, and other critical functions to prevent misuse and maintain system integrity.
+	- Reliability
+		-
+		-
 	-
