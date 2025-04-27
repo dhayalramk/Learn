@@ -203,6 +203,10 @@
 		- Design Ticketmaster
 	- Distributed Infrastructure
 		- Design a key value store
+		- Design a Rate Limiter
+		- Design a Distributed Message Queue
+		- Design a URl shortner
+		- Design Typehead for Search
 		-
 	-
 	-
