@@ -254,6 +254,8 @@
 		- API Security and Management
 			- API gateways enhance security by serving as a control point for incoming and outgoing traffic. They manage authentication, rate limiting, and other critical functions to prevent misuse and maintain system integrity.
 	- Reliability
-		-
+		- Reliability ensures that a system functions correctly, handles errors, and secures against unauthorized access. It encompasses not only availability but also comprehensive measures for security, error management, and disaster recovery.
+		- Reliable systems incorporate strategies to manage hardware and network failures effectively, distinguishing between transient errors like temporary network outages and non-transient errors like hardware failures.
+		- **Refer to predefined requirements**: Helps focus on mitigating significant risks.
 		-
 	-
