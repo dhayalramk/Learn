@@ -86,7 +86,9 @@
 				- How many requests should the server handle?
 				- Are most use bases read-only?
 				- Do users typically read the data shortly after someone else overwrites it?
-				-
+				- Are most users on mobile devices?
+			- Note:
+				- If many design constrains, then focus on most critical one
 	-
 	-
 	-
