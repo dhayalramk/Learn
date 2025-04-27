@@ -146,7 +146,8 @@
 		- Non-Functional Requirements
 			- Transactions: Database that offers ACID (Atomicity, Consistency, Isolation, and Durability) Properties
 			- Data freshness: If an online requires fresh data, think about how to speed up the data ingestion, processing and query process
-			- Data size: If the data size is small enough to fit into memory (up to hundr)
+			- Data size: If the data size is small enough to fit into memory (up to hundreds of GBs), you can place it in memory. However, RAM is prone to data loss, so if you can't afford to lose data, you must find a way to make it persistent.
+			- Partitioning: If the volume of data you need to store is large, you may want to partition the database to balance
 		-
 		-
 	-
