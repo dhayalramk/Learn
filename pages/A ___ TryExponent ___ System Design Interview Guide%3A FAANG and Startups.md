@@ -257,5 +257,13 @@
 		- Reliability ensures that a system functions correctly, handles errors, and secures against unauthorized access. It encompasses not only availability but also comprehensive measures for security, error management, and disaster recovery.
 		- Reliable systems incorporate strategies to manage hardware and network failures effectively, distinguishing between transient errors like temporary network outages and non-transient errors like hardware failures.
 		- **Refer to predefined requirements**: Helps focus on mitigating significant risks.
+		- **Assume failures**: Design systems for graceful recovery from failures.
+		- **Include testing and monitoring**: Essential for assessing system performance and making necessary adjustments.
+		- Retries
+			- **Simple retry**: For unusual transient errors with request limits to avoid system overload.
+			- **Delayed retries with exponential backoff**: For common transient errors to prevent the thundering herd problem, where simultaneous retries overload the system.
+		- Circuit Breakers
+			- **Operation**: Mimics physical circuit breakers by stopping repeated attempts when failures occur, thus conserving resources and preventing further issues.
+			-
 		-
 	-
