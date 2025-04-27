@@ -23,6 +23,7 @@
 	- Publish - Subscribe
 		- Client -> (HTTP Sync) -> Producer (Publish) -> Topic -> (Subscribe) -> Service A or Service B
 - Scalability
+  collapsed:: true
 	- [[HLD / Replication]]
 		- Is the data important enough to make the copies? How important is it to keep the copies the same?
 			- Active Data -> (Data Replication) -> Mirrored Data
@@ -36,6 +37,7 @@
 		- Load Balancing distributes incoming traffic across multiple servers or resources.
 			- Upload Service -> Load Balancer -> [Image Processor, Image Processor, Image Processer]
 - Notes:
+  collapsed:: true
 	- G1
 		- No. Items
 		- Cache Miss & Hit
@@ -65,6 +67,7 @@
 		- Communication between microservices
 		- Caching frequent databases lookups
 - Approach the problem
+  collapsed:: true
 	- Step 1. Understanding the Problem - 10 Minutes
 	  collapsed:: true
 		- What are the fundamental and non-fundamental requirements?
@@ -173,6 +176,7 @@
 		-
 		-
 	- Step 5: Wrap up
-		-
+- Top Interview questions
+	-
 	-
 	-
