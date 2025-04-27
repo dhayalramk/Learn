@@ -14,4 +14,6 @@
 	- GrapfQL
 		- Properties: Single Endpoint, Strongly typed request, no data over fetching, self-documenting
 		- Data: JSON
+		- Use Cases: High performance mobile apps, complex systems and microservice based architectures
+-
 	-
