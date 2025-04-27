@@ -242,5 +242,7 @@
 	- APIs
 		- APIs (Application Programming Interface) facilitates communication between the different system by defining how they can use each other's resources. They operate as a contract, specifying the request and response format between systems. Web APIs, a common type, utilize HTTP for data tranmission. 
 		  id:: 680e6250-d32a-4eac-97e9-fa007e46bc6e
-		- APIs communication through formats like JSON or XML, using internet protocol. A typical API integration involves a client sending a request to a specific UTL using HTTP methods (GET, POST, PUT, DELETE
+		- APIs communication through formats like JSON or XML, using internet protocol. A typical API integration involves a client sending a request to a specific UTL using HTTP methods (GET, POST, PUT, DELETE), and receiving a structured response.
+		- REST API's
+			- REST (Representational State Transfer) is a popular API design that
 	-
