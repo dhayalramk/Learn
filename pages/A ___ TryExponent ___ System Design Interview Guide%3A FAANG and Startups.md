@@ -229,6 +229,8 @@
 		- Network protocols ensure standardized communication amount machines, crucial for maintaining order and functionality in network interactions. The internet primarily uses two models, TCP/IP and OSI, to structure these communications.
 		- TCP/IP Protocol and OSI Models
 			- TCP/IP Protocol: Consists of four layers: Network Access, Internet, Transport and Application. It uses protocol like IP (Internet Protocol) and TCP (Transmission Control Protocol) to facilitate data transmission across network ideas.
-			- OSI Model: A more conceptual, seven-layer model that provides a detailed
+			- OSI Model: A more conceptual, seven-layer model that provides a detailed breakdown of the network communication process.
+		- TCP and UDP:
+			- TCP: Focuses on reliable transmission, correcting errors like lost
 	-
 	-
