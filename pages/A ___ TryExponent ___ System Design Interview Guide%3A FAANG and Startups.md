@@ -25,5 +25,8 @@
 - Scalability
 	- Replication
 		- Is the data important enough to make the copies? How important is it to keep the copies the same?
-			- Active Data -> (Data Replication)
+			- Active Data -> (Data Replication) -> Mirrored Data
+	- Partitioning
+		- Partition contains a subset of the whole table. Each partition is stored on a separate server.
+			- Horizontal Partitioning
 	-
