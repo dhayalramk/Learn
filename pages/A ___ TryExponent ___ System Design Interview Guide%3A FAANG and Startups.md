@@ -154,7 +154,9 @@
 		- Are there any bottlenecks in this system? how well does it scale?
 		- Evaluate if the system can operate effectively under different conditions and has the flexibility to support future growth.
 		- Consider these points:
-			-
+			- Single points of failure: Is there  a single point that could cause the entire system to fail? How could the system be more robust and maintain uptime?
+			- Data replication: Is the data important enough to make copies? how important is it to keep all copies the same?
+			- CDNs
 		-
 		-
 	-
