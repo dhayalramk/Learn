@@ -61,7 +61,10 @@
 		- On-Demand Expiration
 		- Garbage Collections
 	- G6
-		- Storing
-		-
+		- Storing user session
+		- Communication between microservices
+		- Caching frequent databases lookups
+-
+	-
 	-
 	-
