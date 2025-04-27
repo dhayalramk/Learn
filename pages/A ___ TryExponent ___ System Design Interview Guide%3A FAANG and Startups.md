@@ -185,6 +185,14 @@
 		- Design ChatGPT
 	- Media & Content Delivery
 		- Design YouTube
+		- Design TikTok
+		- Design Instagram
+		- Design Netflix
+		- Design Twitter
+	- Async & Data Processing
+		- Design a Web Crawler
+		- Design a Metrics and Logging Services
+		- Design Dropbox
 		-
 	-
 	-
