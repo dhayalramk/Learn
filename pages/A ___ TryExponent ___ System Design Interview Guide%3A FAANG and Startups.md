@@ -10,8 +10,8 @@
 	- RPC
 		- Properties: action-oriented, high performance
 		- Data: JSON, XML, Thrift, Protobuf, FlatButters
-		-
+		- Use Cases: complex microservice system, IoT Applications
 	- GrapfQL
-		- Properties: Single Endpoint, Strongly typed language,
+		- Properties: Single Endpoint, Strongly typed request, no data over fetching, self-documenting
 		- Data: JSON
 	-
