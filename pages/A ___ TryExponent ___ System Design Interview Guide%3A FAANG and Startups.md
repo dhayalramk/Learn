@@ -162,7 +162,8 @@
 		- Message Queues and Public or Subscribe
 			- By breaking down process and implementing queuing mechanisms to manage traffic, systems can be optimized for high performance at scale
 			- Message Queues (MQs): MQs are ideal for scenarios where processing jobs in a specific order is essential. They ensure that tasks are executed sequentially, maintaining the integrity of the workflow.
-			- Publish-Subscribe (Pub Sub) systems:
+			- Publish-Subscribe (Pub Sub) systems: PubSub systems shine when it comes to disseminating events or notifications to a large number of recipients concurrently.
+			-
 		-
 		-
 	-
