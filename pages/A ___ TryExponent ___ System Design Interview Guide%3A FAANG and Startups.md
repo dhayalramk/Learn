@@ -92,6 +92,17 @@
 					- Example: Social media design
 						- Focus on photos and timeline generation services.
 						- Lesser focus on: User registration and follow another user.
+			- | Requirement     | Question                                                      |
+			  |-----------------|---------------------------------------------------------------|
+			  | Performance     | How fast is the system?                                       |
+			  | Scalability     | How will the system respond to increased demand?              |
+			  | Reliability     | What is the system’s uptime?                                  |
+			  | Resilience      | How will the system recover if it fails?                      |
+			  | Security        | How are the system and data protected?                        |
+			  | Usability       | How do users interact with the system?                        |
+			  | Maintainability | How will you troubleshoot the system?                         |
+			  | Modifiability   | Can users customize features? Can developers change the code? |
+			  | Localization    | Will the system handle currencies and languages?              |
 			-
 	-
 	-
