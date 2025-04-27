@@ -21,5 +21,6 @@
 	- Async Messaging
 		- Client -> (HTTP Sync) -> Service A's -> (Message) -> Queue -> (Message & Subscribe) -> Service B's
 	- Publish - Subscribe
-		- Client -> (HTTP Sync) -> Producer (Publish or )
+		- Client -> (HTTP Sync) -> Producer (Publish) -> Topic -> (Subscribe) -> Service A or Service B
+-
 	-
