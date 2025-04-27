@@ -45,7 +45,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "680e324d-b4c6-4d1c-9779-9a094b48e56b"} 
-{:block/created-at 1745760860784
+{:block/created-at 1745760909363
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -68,11 +68,48 @@
 :opacity 1
 :id "49043ce0-236c-11f0-b540-b99e3442f89a"
 :noFill false
-:point [552 232]
+:point [560 232]
 :parentId "680e31f7-5505-4442-9120-855825c20da0"
 :collapsedHeight 0
-:nonce 1745760843786}}
-:block/updated-at 1745760860784})
+:nonce 1745760843888}}
+:block/updated-at 1745760909363} 
+{:block/created-at 1745760931524
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 2
+:scale [1 1]
+:scaleLevel "xs"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "5f428342-236c-11f0-b540-b99e3442f89a"
+:fontWeight 400
+:noFill true
+:point [484 248.93]
+:fontSize 10
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 2.02]
+:bindingId "5f428340-236c-11f0-b540-b99e3442f89a"}
+:end 
+{:id "end"
+:canBind true
+:point [72 0]
+:bindingId "7beb6571-236c-11f0-b540-b99e3442f89a"}}
+:decorations 
+{:start nil
+:end "arrow"}
+:parentId "680e31f7-5505-4442-9120-855825c20da0"
+:nonce 1745760881232
+:italic false}}
+:block/updated-at 1745760931524})
 :pages (
 {:block/uuid #uuid "680e31f7-5505-4442-9120-855825c20da0"
 :block/properties 
@@ -81,11 +118,42 @@
 {:id "680e31f7-5505-4442-9120-855825c20da0"
 :name "demonstrate - data & control flow"
 :bindings 
-{}
+{:5f428340-236c-11f0-b540-b99e3442f89a 
+{:id "5f428340-236c-11f0-b540-b99e3442f89a"
+:type "line"
+:fromId "5f428342-236c-11f0-b540-b99e3442f89a"
+:toId "202b8ad0-236c-11f0-b540-b99e3442f89a"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:5f428341-236c-11f0-b540-b99e3442f89a 
+{:id "5f428341-236c-11f0-b540-b99e3442f89a"
+:type "line"
+:fromId "5f428342-236c-11f0-b540-b99e3442f89a"
+:toId "49043ce0-236c-11f0-b540-b99e3442f89a"
+:handleId "end"
+:point [0.72 0.36]
+:distance 4}
+:723e6fe1-236c-11f0-b540-b99e3442f89a 
+{:id "723e6fe1-236c-11f0-b540-b99e3442f89a"
+:type "line"
+:fromId "5f428342-236c-11f0-b540-b99e3442f89a"
+:toId "49043ce0-236c-11f0-b540-b99e3442f89a"
+:handleId "end"
+:point [0.53 0.39]
+:distance 4}
+:7beb6571-236c-11f0-b540-b99e3442f89a 
+{:id "7beb6571-236c-11f0-b540-b99e3442f89a"
+:type "line"
+:fromId "5f428342-236c-11f0-b540-b99e3442f89a"
+:toId "49043ce0-236c-11f0-b540-b99e3442f89a"
+:handleId "end"
+:point [0.5 0.39]
+:distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("202b8ad0-236c-11f0-b540-b99e3442f89a" "49043ce0-236c-11f0-b540-b99e3442f89a")}}
-:block/updated-at 1745760860784
+:shapes-index ("202b8ad0-236c-11f0-b540-b99e3442f89a" "49043ce0-236c-11f0-b540-b99e3442f89a" "5f428342-236c-11f0-b540-b99e3442f89a")}}
+:block/updated-at 1745760931573
 :block/created-at 1745760759043
 :block/type "whiteboard"
 :block/name "demonstrate - data & control flow"
