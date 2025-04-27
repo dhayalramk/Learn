@@ -128,6 +128,7 @@
 			- Discussing data access patterns and the read-to-write ratio
 			- Considering indexing options
 			- And at a high level, identifying which database to use.
+		-
 	-
 	-
 	-
