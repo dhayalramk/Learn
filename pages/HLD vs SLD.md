@@ -7,4 +7,4 @@
   | **Audience** | Architects, senior developers, stakeholders | Developers, testers, engineers |
   | **Example for a Web App** | + Client-Server architecture + APIs between services + DB vs Cache vs Message Queues decisions | + Exact REST API specifications + DB table schemas + Code-level class structure |
   | **Analogy** | Like **blueprints** of a building (floors, rooms, structure) | Like **wiring diagrams and plumbing plans** inside the building |
--
+- Tags [HLD]
