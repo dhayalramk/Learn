@@ -160,7 +160,8 @@
 			- High traffic: Are there any special situations, like when many people use the system simultaneously, that could make it slow or even break it?
 			- Scalability: How can the system work for 10 times more people?
 		- Message Queues and Public or Subscribe
-			-
+			- By breaking down process and implementing queuing mechanisms to manage traffic, systems can be optimized for high performance at scale
+			- Message Queues (MQs):
 		-
 		-
 	-
