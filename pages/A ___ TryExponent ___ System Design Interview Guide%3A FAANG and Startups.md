@@ -161,7 +161,8 @@
 			- Scalability: How can the system work for 10 times more people?
 		- Message Queues and Public or Subscribe
 			- By breaking down process and implementing queuing mechanisms to manage traffic, systems can be optimized for high performance at scale
-			- Message Queues (MQs):
+			- Message Queues (MQs): MQs are ideal for scenarios where processing jobs in a specific order is essential. They ensure that tasks are executed sequentially, maintaining the integrity of the workflow.
+			- Publish-Subscribe (Pub Sub) systems:
 		-
 		-
 	-
