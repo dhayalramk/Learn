@@ -154,6 +154,7 @@
 			- Offline processing: if some processing can be done offline or delayed, you may want to rely on message queues and consumers.
 			- Access patterns: Revisit the data access pattern, QPS number, and read/write ration, and consider how they impact your choices for databases, database schemas, and indexing options.
 	- Step 4: Improve the Design (Bottlenecks and Scale) - 10 Minutes
+	  collapsed:: true
 		- Are there any bottlenecks in this system? how well does it scale?
 		- Evaluate if the system can operate effectively under different conditions and has the flexibility to support future growth.
 		- Consider these points:
@@ -171,6 +172,7 @@
 			-
 		-
 		-
-	-
+	- Step 5: Wrap up
+		-
 	-
 	-
