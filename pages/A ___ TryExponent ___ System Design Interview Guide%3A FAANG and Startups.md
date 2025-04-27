@@ -23,10 +23,10 @@
 	- Publish - Subscribe
 		- Client -> (HTTP Sync) -> Producer (Publish) -> Topic -> (Subscribe) -> Service A or Service B
 - Scalability
-	- Replication
+	- [[HLD / Replication]]
 		- Is the data important enough to make the copies? How important is it to keep the copies the same?
 			- Active Data -> (Data Replication) -> Mirrored Data
-	- Partitioning
+	- [[HLD / Partitioning]]
 		- Partition contains a subset of the whole table. Each partition is stored on a separate server.
 			- Horizontal Partitioning -> N1, N2,.., Nx -> Vertical Partitioning
 	- [[HLD / Sharding]]
@@ -35,5 +35,9 @@
 	- [[HLD / Load Balancing]]
 		- Load Balancing distributes incoming traffic across multiple servers or resources.
 			- Upload Service -> Load Balancer -> [Image Processor, Image Processor, Image Processer]
+- Notes:
+	- G1
+		- No. Items
+		- Cache miss &
 	-
 	-
