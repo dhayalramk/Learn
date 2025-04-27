@@ -141,8 +141,8 @@
 		  |  | Entity - Relationships -> Graph | Neptune | Cosmos DB | JanusGraph, BigTable | Neo4J, OrientDB, Giraph | 
 		  | Unstructured | Full Text Search -> Text Search | OpenSearch, CloudSearch | Cognite Search | Cloud Search | Elasticsearch, Solr |
 		  |  | (media) -> Blob | Amazon S3 | Blob Storage | Cloud Storage | HDFS, Cloudflare R2, MinIO |
-		- [[demonstrate - data & control flow]]
-		-
+		- Diagram for data and control flow explanation [[demonstrate - data & control flow]]
+	- Step 3: Explore the Design: Deep-Dive - 10 Minutes
 		-
 		-
 		-
