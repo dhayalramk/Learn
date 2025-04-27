@@ -89,6 +89,9 @@
 				- Are most users on mobile devices?
 			- Note:
 				- If many design constrains, then focus on most critical one
+					- Example: Social media design
+						- Focus on photos and timeline generation services.
+						- Lesser focus on: User re
 	-
 	-
 	-
