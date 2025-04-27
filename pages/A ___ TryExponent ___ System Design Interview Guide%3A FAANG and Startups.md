@@ -207,19 +207,24 @@
 		- Design a URl shortner
 		- Design Typehead for Search
 - Fundamental Principles and Concepts
+	- Topics
+		- Web Protocols
+		- APIs
+		- Reliablity
+		- Availablity
+		- Load Balancing
+		- SQL vs NoSQL
+		- Database Sharding
+		- Database Replication
+		- Consistent Hashing
+		- Cap Theorem
+		- Asynchronous Processing
+		- Caching
+		- Encryption
+		- Authentication and Authorization
+		- Cloud Architecture
+		- CDNs
 	- Web Protocols
-	- APIs
-	- Reliablity
-	- Availablity
-	- Load Balancing
-	- SQL vs NoSQL
-	- Database Sharding
-	- Database Replication
-	- Consistent Hashing
-	- Cap Theorem
-	- Asynchronous Processing
-	- Caching
-	- Encryption
-	- Authentication and Autho
+		-
 	-
 	-
