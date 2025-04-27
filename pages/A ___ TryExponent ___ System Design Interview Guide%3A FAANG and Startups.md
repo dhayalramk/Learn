@@ -231,6 +231,7 @@
 			- TCP/IP Protocol: Consists of four layers: Network Access, Internet, Transport and Application. It uses protocol like IP (Internet Protocol) and TCP (Transmission Control Protocol) to facilitate data transmission across network ideas.
 			- OSI Model: A more conceptual, seven-layer model that provides a detailed breakdown of the network communication process.
 		- TCP and UDP:
-			- TCP: Focuses on reliable transmission, correcting errors like lost
+			- TCP: Focuses on reliable transmission, correcting errors like lost or out-of-order packets. It's suitable for applications where data accuracy is critical.
+			- UDP: Offers faster transmission by eliminating error-checking processes. used in app;
 	-
 	-
