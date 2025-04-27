@@ -234,6 +234,7 @@
 			- TCP: Focuses on reliable transmission, correcting errors like lost or out-of-order packets. It's suitable for applications where data accuracy is critical.
 			- UDP: Offers faster transmission by eliminating error-checking processes. used in applications like live streaming where speed is preferred over accuracy.
 		- HTTP and HTTPS
-			- HTTP: An application layer protocol for transmitting
+			- HTTP: An application layer protocol for transmitting hyperlinks and web content using request methods like GET and POST
+			- HTTPS: Enhances
 	-
 	-
