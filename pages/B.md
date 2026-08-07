@@ -1,7 +1,0 @@
-- To Read
-	- System Design Interview - Part 1 - Alex Xu
-	- System Design Interview - Part 2 - Alex Xu
-	- Coding Interview Patterns - Alex Xu
-	- Machine Learning - System Design Interview - Alex Xu
-	- Generative AI - System Design Interview - Alex Xu
-	-

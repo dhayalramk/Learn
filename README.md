@@ -1,2 +1,3 @@
 # Learn
-Here I going to track my learning from the project tab
+Learn in public, Created the repo to learn with Evidance
+
