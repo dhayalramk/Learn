@@ -152,3 +152,21 @@ class Solution:
             s = "".join(new_s)
         return s
 ```
+
+## Solution 8 - Improvement - Using appropriote loop
+
+Python already have solution using for loop using range, so moving from while to for loop
+
+```python
+class Solution:
+    def digitSum(self, s: str, k: int) -> str:
+        while len(s) > k:
+            new_s = []
+            i = 0
+            for i in range(0, len(s), k):
+                new_s.append(str(sum(int(x) for x in s[i:i+k])))
+            s = "".join(new_s)
+        return s
+```
+
+
