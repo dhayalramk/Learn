@@ -78,3 +78,25 @@ class Solution:
 
 ----
 
+## Solution 4: Improvement - String construction
+
+Python string are immutable, which means every time I try to concat it's trying to recreate entire memory and assign it, behalf of that, we can just keep as list and then construct the final string
+
+```python
+class Solution:
+    def digitSum(self, s: str, k: int) -> str:
+        if len(s) <= k:
+            return s
+
+        new_s = []
+        i, n = 0, len(s)
+        while i < len(s):
+            tmp = s[i:i+k]
+            total = 0
+            for x in range(len(tmp)):
+                total += int(tmp[x])
+            new_s.append(str(total))
+            i += k
+        return self.digitSum("".join(new_s), k)
+
+```
