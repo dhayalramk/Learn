@@ -25,5 +25,32 @@ class Solution:
             # print(new_s, i)
         return self.digitSum(new_s, k)
 ```
+----
 
+## Solution 1: Improvement - Changing to while loop
+For loop is unnecessary for this scenario. so changing it to while loop, which is the correct for this scenario
+
+```python
+class Solution:
+    def digitSum(self, s: str, k: int) -> str:
+        if len(s) <= k:
+            return s
+
+        new_s = ""
+        i, n = 0, len(s)
+        while i < len(s):
+            tmp = s[i:i+k]
+            total = 0
+            for x in range(k):
+                if x>= len(tmp):
+                    new_s = f"{new_s}{total}"
+                    break
+                total += int(tmp[x])
+            if x< len(tmp):
+                new_s = f"{new_s}{total}"
+            # print(new_s, i)
+            i += k
+        return self.digitSum(new_s, k)
+```
+----
 
