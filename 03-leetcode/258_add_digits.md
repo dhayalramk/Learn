@@ -24,7 +24,7 @@ class Solution:
 ----
 ## Solution 3: Improve code quality
 
-```
+```python
 class Solution:
     def addDigits(self, num: int) -> int:
         if num == 0:
