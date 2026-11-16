@@ -27,7 +27,7 @@ class Solution:
 ```
 ----
 
-## Solution 1: Improvement - Changing to while loop
+## Solution 2: Improvement - Changing to while loop
 For loop is unnecessary for this scenario. so changing it to while loop, which is the correct for this scenario
 
 ```python
@@ -52,5 +52,29 @@ class Solution:
             i += k
         return self.digitSum(new_s, k)
 ```
+----
+
+## Solution 3: Improvement - Remove not needed condition in the loop
+
+When the tmp variable itself giving proper count, why we need to count again and break and all, so improved it
+
+```python
+class Solution:
+    def digitSum(self, s: str, k: int) -> str:
+        if len(s) <= k:
+            return s
+
+        new_s = ""
+        i, n = 0, len(s)
+        while i < len(s):
+            tmp = s[i:i+k]
+            total = 0
+            for x in range(len(tmp)):
+                total += int(tmp[x])
+            new_s = f"{new_s}{total}"
+            i += k
+        return self.digitSum(new_s, k)
+```
+
 ----
 
