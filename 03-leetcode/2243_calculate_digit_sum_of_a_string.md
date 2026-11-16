@@ -189,4 +189,25 @@ class Solution:
             s = "".join(new_s)
         return s
 ```
+----
+
+## Solution 10 - Improvement Using itertools for loop
+
+Using proper pythonic function to make loop function
+
+```python
+import itertools
+
+class Solution:
+    def digitSum(self, s: str, k: int) -> str:
+        while len(s) > k:
+            new_s = []
+            for batch in itertools.batched(s, k):
+                new_s.append(str(sum(int(x) for x in batch)))
+            s = "".join(new_s)
+        return s
+```
+----
+
+
 
