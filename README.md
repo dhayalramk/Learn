@@ -7,4 +7,4 @@ Learn in public, Created the repo to learn with Evidance
 3. Don't overthink the structure, when it's needed can reorganize 
 
 ## Journal 
-- [2026 August](01_Journal/2026/08-August/README.md)
+- [2026 November](01-daily-logs/2026/11-november/README.md)
