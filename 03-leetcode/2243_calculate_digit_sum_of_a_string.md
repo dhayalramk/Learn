@@ -100,3 +100,22 @@ class Solution:
         return self.digitSum("".join(new_s), k)
 
 ```
+## Solution 5: Improvement - Remove unnecessary variable
+
+When we can able to loop in single line, we can reduce unnecessary local variables
+
+```python
+class Solution:
+    def digitSum(self, s: str, k: int) -> str:
+        if len(s) <= k:
+            return s
+
+        new_s = []
+        i = 0
+        while i < len(s):
+            new_s.append(str(sum([int(x) for x in s[i:i+k]])))
+            i += k
+        return self.digitSum("".join(new_s), k)
+```
+
+
