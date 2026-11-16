@@ -118,4 +118,20 @@ class Solution:
         return self.digitSum("".join(new_s), k)
 ```
 
+## Solution 6: Improvement - Remove list from generator expression
 
+Python doesn't needs to be converted into list to calculate the sum, so we can calculate the value directly from generator expression
+
+```python
+class Solution:
+    def digitSum(self, s: str, k: int) -> str:
+        if len(s) <= k:
+            return s
+
+        new_s = []
+        i = 0
+        while i < len(s):
+            new_s.append(str(sum(int(x) for x in s[i:i+k])))
+            i += k
+        return self.digitSum("".join(new_s), k)
+```
