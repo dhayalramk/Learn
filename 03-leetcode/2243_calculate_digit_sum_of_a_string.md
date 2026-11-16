@@ -135,3 +135,20 @@ class Solution:
             i += k
         return self.digitSum("".join(new_s), k)
 ```
+
+## Solution 7: Improvement - Recurssive to Iterative 
+
+For this solution we don't need resusive, so moving to itereative method
+
+```python
+class Solution:
+    def digitSum(self, s: str, k: int) -> str:
+        while len(s) > k:
+            new_s = []
+            i = 0
+            while i < len(s):
+                new_s.append(str(sum(int(x) for x in s[i:i+k])))
+                i += k
+            s = "".join(new_s)
+        return s
+```
