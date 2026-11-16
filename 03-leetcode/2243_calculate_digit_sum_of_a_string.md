@@ -100,6 +100,8 @@ class Solution:
         return self.digitSum("".join(new_s), k)
 
 ```
+----
+
 ## Solution 5: Improvement - Remove unnecessary variable
 
 When we can able to loop in single line, we can reduce unnecessary local variables
@@ -117,6 +119,7 @@ class Solution:
             i += k
         return self.digitSum("".join(new_s), k)
 ```
+----
 
 ## Solution 6: Improvement - Remove list from generator expression
 
@@ -135,6 +138,7 @@ class Solution:
             i += k
         return self.digitSum("".join(new_s), k)
 ```
+----
 
 ## Solution 7: Improvement - Recurssive to Iterative 
 
@@ -152,6 +156,7 @@ class Solution:
             s = "".join(new_s)
         return s
 ```
+----
 
 ## Solution 8 - Improvement - Using appropriote loop
 
@@ -168,5 +173,20 @@ class Solution:
             s = "".join(new_s)
         return s
 ```
+----
 
+## Solution 9 - Improvement - Remove redundant assigment
+
+`i=0` is redudenct. for loop assigns `i`' automatically, The preceding assignment was redudent.
+
+```python
+class Solution:
+    def digitSum(self, s: str, k: int) -> str:
+        while len(s) > k:
+            new_s = []
+            for i in range(0, len(s), k):
+                new_s.append(str(sum(int(x) for x in s[i:i+k])))
+            s = "".join(new_s)
+        return s
+```
 
